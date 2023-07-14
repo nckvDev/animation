@@ -15,7 +15,7 @@ const SmoothScroll = () => {
       })()
    }, [])
    return (
-      <div className={styles.main}>
+      <div>
          <Intro />
          <Description />
          <Projects />

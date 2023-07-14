@@ -18,9 +18,8 @@ const Intro = () => {
          scrollTrigger: {
             trigger: document.documentElement,
             scrub: true,
-            // pin: true,
-            start: 'top top',
-            end: '+=300px',
+            start: 'top',
+            end: '+=500px',
          },
       })
 
@@ -40,15 +39,10 @@ const Intro = () => {
             />
          </div>
          <div className={styles.intro}>
-            <div
-               ref={introImage}
-               data-scroll
-               data-scroll-speed='0.52'
-               className={styles.introImage}
-            >
+            <div ref={introImage} data-scroll data-scroll-speed='0.3' className={styles.introImage}>
                <Image src={'/images/intro.jpg'} alt='intro image' fill={true} priority={true} />
             </div>
-            <h1 data-scroll data-scroll-speed='0.8'>
+            <h1 data-scroll data-scroll-speed='0.7'>
                CROW ZERO
             </h1>
          </div>
