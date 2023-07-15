@@ -5,6 +5,7 @@ export default function Home() {
       <main>
          <h1>Hello World!</h1>
          <Link href='/smooth-scroll'>Smooth Scroll</Link>
+         <Link href='/text-move'>Text Move</Link>
       </main>
    )
 }
