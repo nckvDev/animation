@@ -9,6 +9,7 @@ export default function Home() {
             <Link href='/smooth-scroll'>Smooth Scroll</Link>
             <Link href='/text-move'>Text Move</Link>
             <Link href='/gallery'>Gallery Project</Link>
+            <Link href='/mouse-scale'>Mouse Scale</Link>
          </div>
       </main>
    )
