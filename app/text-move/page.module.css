@@ -8,6 +8,8 @@
 
 .main img {
    object-fit: cover;
+   filter: brightness(70%);
+   -webkit-filter: brightness(70%);
 }
 
 .sliderContainer {

@@ -8,5 +8,9 @@
 }
 
 .gallery {
-   width: 70%;
+   width: 80%;
+}
+
+.gallery > p {
+   margin-bottom: 1rem;
 }

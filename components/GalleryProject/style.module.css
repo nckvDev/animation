@@ -26,5 +26,13 @@
 }
 
 .project img {
+   object-fit: cover;
    width: 10vw;
+}
+
+.project .imgContainer {
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   width: 0;
 }
